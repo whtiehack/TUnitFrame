@@ -20,6 +20,18 @@ local function debug_print(addon , ...)
 	end
 end
 
+
+function TFLoad()
+    TUnitFrame_SwitchPlayerInfoPane(true)
+    TUnitFrame_SwitchMemberInfoPane(true)
+    TUnitFrame_SwitchPartyTarget(true)
+    TUnitFrame_SwitchClassInfo(true)
+    TUnitFrame_SwitchColorize(true)
+    TUnitFrame_SwitchFormat(true)
+    TUnitFrame_SwitchExpBar(true)
+    TUnitFrame_SwitchPartyCastBar(true)
+end
+
 local party,target,player
 
 function TUnitFrame_SwitchPartyTarget(flag)
