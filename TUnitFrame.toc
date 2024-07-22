@@ -7,6 +7,7 @@
 ## Notes-zhTW: |cff00ff00TUnitFrame|r|n|cffbc8f8f修改系統提供的隊友，目標，焦點以及玩家框體。|r
 ## Author: Terry
 ## SavedVariables: TUF_Config,BUnitFrame_Config
+## Dependencies: !!!Libs
 ## X-Revision: BigFoot
 
 TUnitFrame.xml
