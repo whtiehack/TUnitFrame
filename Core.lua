@@ -21,8 +21,10 @@ local function debug_print(addon , ...)
 end
 
 
-function TFLoad()
-    TUnitFrame_SwitchPlayerInfoPane(true)
+function TFLoad(showPlayerInfo)
+    if showPlayerInfo then
+        TUnitFrame_SwitchPlayerInfoPane(true)
+    end
     TUnitFrame_SwitchMemberInfoPane(true)
     TUnitFrame_SwitchPartyTarget(true)
     TUnitFrame_SwitchClassInfo(true)
